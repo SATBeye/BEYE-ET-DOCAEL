@@ -1,0 +1,174 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(3, 3, 20);
+    background-size: cover;
+}
+
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: larger;
+}
+
+
+header {
+    position: relative;
+}
+
+
+header .logo img {
+    height: 100px;
+    position: relative;
+    border-radius: 50px;
+}
+
+
+.link {
+    display: block;
+    position: relative;
+}
+
+
+.link a {
+    color: white;
+}
+
+
+.link a:hover {
+    color: black;
+    background: rgb(133, 133, 233);
+    transition: 0.30s;
+}
+
+
+.lien {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+
+.lien li {
+    list-style: none;
+}
+
+
+.lien li a {
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 40px;
+}
+
+
+.lien li a:hover {
+    margin: 20px;
+    padding: 5px;
+    color: black;
+    background: rgb(133, 133, 233);
+    transition: 0.30s;
+
+}
+
+
+.Portfolio h2 {
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.Portfolio p {
+    font-size: larger;
+    line-height: 1.5;
+    text-align: left;
+    margin: 40px;
+}
+
+
+.Portfolio nav .images img {
+    width: 300px;
+    height: 220px;
+    margin: 60px;
+    margin-left: 80px;
+}
+
+
+.compétences h2 {
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.compétences p {
+    line-height: 1.5;
+    font-size: larger;
+    margin: 40px;
+}
+
+
+.compétences nav image {
+    display: flex;
+}
+
+
+.compétences nav .image img {
+    margin: 80px;
+    width: 400px;
+    height: 300px;
+    margin-right: 180px;
+}
+
+
+form h2 {
+    text-align: center;
+}
+
+
+form .gauche {
+    margin-left: 40px;
+    line-height: 2;
+}
+
+
+form .gauche input {
+    margin-top: 10px;
+    padding: 5px 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+
+form .droite .message {
+    text-align: center;
+}
+
+
+form .message textarea {
+    padding: 50px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+
+.pieds-de-page {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.pieds-de-page button {
+    padding: 10px;
+}
+
+
+footer {
+    background: gray;
+    text-align: center;
+    font-size: 1rem;
+}
